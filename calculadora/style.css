@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculadora{
+    width: 500px;
+    height: 700px;
+    background-color: rgb(206, 206, 206);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.resultado{
+    height: 100px;
+    display: flex;
+    font-size: 32px;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+    text-transform: uppercase;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.botones{
+    height: 560px;
+    background-color: white;
+    display: flex;
+}
+
+.numeros{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boton{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(212, 212, 212, 0.438);
+    font-size: 32px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .3s all;
+}
+
+.boton:hover{
+    background-color: rgba(206, 206, 206, 0.781);
+}
+
+.operaciones{
+    height: 100%;
+}
+
+.suma{
+    height: 300px;
+}
